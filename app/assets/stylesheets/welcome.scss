@@ -1,0 +1,49 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#playGround{
+    margin-top:10px;
+    background:rgba(0,0,0,0.3);    
+    height:400px;
+
+}
+
+.bottom{    
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.all_edges{
+    border-radius:10px;
+}
+#playGround table{
+    margin:30px;
+    width:90%;
+    height:90%;
+    /*border:1px solid grey;*/
+}
+td{
+    width:30px;
+    height:30px;
+    border:1px solid black;
+}
+tr.columnDetection{
+    border:0 none;    
+}
+tr.columnDetection > td{
+    border-top:0 none;
+
+}
+td.hoveredA{
+    background:red;    
+}
+td.hoveredB{
+    background:yellow;
+}
+
+td.hasDataA{
+    background:red;
+}
+td.hasDataB{
+    background:yellow;
+}
